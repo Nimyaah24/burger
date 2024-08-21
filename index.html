@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feane</title>
+
+  <!-- favicon -->
+  <link rel="icon" type="img/png" href="https://png.pngtree.com/png-clipart/20230508/original/pngtree-burger-icon-png-image_9150347.png">
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <!-- css link -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- box icon -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  
+</head>
+
+<body style=" font-family: 'Poppins', sans-serif;">
+
+  <!-- navbar -->
+
+  <nav class="navbar bg-dark navbar-expand-lg ">
+    <div class="container-fluid ">
+      <a style="font-style: italic; font-family: cursive;" class="navbar-brand w-25 ms-3 text-light" href="#">Feane</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-warning" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link  " href="#">VIEW</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#"> ABOUT</a>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">DOCK TABLE</a>
+
+          </li>
+
+        </ul>
+        <form class="icon1 d-flex " role="search">
+          <i class="fa-solid fa-user m-2"></i>
+
+          <i class="fa-solid fa-cart-shopping m-2"></i>
+
+          <i class="fa-solid fa-magnifying-glass m-2"></i>
+
+          <input class="form-control rounded-pill border-warning  bg-warning  " type="search" style="text-align: center; margin-left: 10px;"
+            placeholder="Order Online" aria-label="Search">
+
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- end navbar -->
+
+  <!-- Home -->
+
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators justify-content-start mb-5">
+      <button id="btn1" style="border-radius: 100%;height:10px; width: 10px; " type="button"
+        data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button id="btn1" style="border-radius: 100%;height:10px; width: 10px;" type="button"
+        data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button id="btn1" style="border-radius: 100%;height:10px; width: 10px;" type="button"
+        data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div id="carousel07" class="carousel-inner">
+      <div class="carousel-item active">
+
+        <div class="carousel-caption d-block" style="margin-left: -1000px;">
+          <h5>Fast Food Restaurant</h5>
+          <p style="margin-right: -215px;">Some representative placeholder content for the first slide.</p>
+          <button type="button" class="btn btn-warning me-5" style="margin-left: -30px;">Order Now</button>
+
+        </div>
+      </div>
+      <div class="carousel-item">
+
+        <div class="carousel-caption d-none d-md-block" style="margin-left: -1000px;">
+          <h5 style="margin-right: -45px;">NON-VEG Food Restaurant</h5>
+          <p style="margin-right: -215px;">Some representative placeholder content for the first slide.</p>
+          <button type="button" class="btn btn-warning me-5" style="margin-left: -30px;">Order Now</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+
+        <div class="carousel-caption d-none d-md-block" style="margin-left: -1000px;">
+          <h5>Veg Food Restaurant</h5>
+          <p style="margin-right: -215px;">Some representative placeholder content for the first slide.</p>
+          <button type="button" class="btn btn-warning me-5" style="margin-left: -30px;">Order Now</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- end Home -->
+
+  <!-- card -->
+
+  <div class="row p-5" style="margin-left: 100px;">
+    <div class="col-6">
+      <div class="card bg-dark mb-3" style="max-width: 540px;">
+        <div class="row g-0 ms-3">
+          <div class="img1 col-md-4 mt-1 p-3">
+            
+              <img src="https://png.pngtree.com/background/20230614/original/pngtree-burger-that-has-cheese-picture-image_3497956.jpg"
+                class="img-fluid " style=" height: 127px;" alt="...">
+            
+          </div>
+          <div class="col-md-8">
+            <div class="card-body text-light " style="font-family: Georgia, 'Times New Roman', Times, serif;">
+              <h5 class="card-title"><em>Thursday</em></h5>
+              <h1 class="card-text"><em>20% off</em></h1>
+
+              <button type="button" class="btn rounded-pill btn-warning text-light w-50">Order Now <i
+                  class="fa-solid fa-cart-shopping text-light m-2"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="card bg-dark mb-3" style="max-width: 540px;">
+        <div class="row g-0 ms-3">
+          <div class="img1 col-md-4 mt-1 p-3">
+            <img src="https://img.freepik.com/free-photo/freshly-italian-pizza-with-mozzarella-cheese-slice-generative-ai_188544-12347.jpg?size=626&ext=jpg&ga=GA1.1.632798143.1705536000&semt=ais" class="img-fluid "
+              style=" height: 130px;" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body text-light " style="font-family: Georgia, 'Times New Roman', Times, serif;">
+              <h5 class="card-title"><em>Pizza Day</em></h5>
+              <h1 class="card-text"><em>15% off</em></h1>
+
+              <button type="button" class="btn rounded-pill btn-warning text-light w-50">Order Now <i
+                  class="fa-solid fa-cart-shopping text-light m-2"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- end card -->
+
+  <!-- menu -->
+
+  <h2 style="font-family:Georgia, 'Times New Roman', Times, serif ;" class="text-center"><em><b>Our Menu</b></em></h2>
+  <section id="projects">
+    <div class="container">
+      <!-- Items menu -->
+      <div class="item-links" style="margin-left: 100px;">
+        <span class="item-link"><b>All</b></span>
+        <span class="item-link"><b>Burger</b></span>
+        <span class="item-link"><b>Pizza</b></span>
+        <span class="item-link"><b>Pasta</b></span>
+        <span class="item-link"><b>Fires</b></span>
+      </div>
+<br>
+
+      <!-- gallery img -->
+      <div class="row " style="margin-left: 100px;">
+        <div class="col-4 ">
+          <div class="card bg-dark " style="width: 18rem;">
+            <img src="https://1tsp.in/wp-content/uploads/2021/07/image-1.jpg" class="card-img-top rounded-start" style="height: 190px;" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-light">Delicious Pizza</h5>
+              <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <span class="text-light me-5">$2C</span><a href="#" class="btn btn-warning " style="margin-left: 125px; border-radius: 50%; width: 43px;"><i class="fa-solid fa-cart-shopping text-light" ></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card bg-dark " style="width: 18rem;">
+            <img src="https://www.shutterstock.com/image-photo/burger-tomateoes-lettuce-pickles-on-600nw-2309539129.jpg" class="card-img-top rounded-start"  alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-light">Delicious Burger</h5>
+              <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <span class="text-light me-5">$15</span><a href="#" class="btn btn-warning " style="margin-left: 135px; border-radius: 50%; width: 43px;"><i class="fa-solid fa-cart-shopping text-light" ></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card bg-dark " style="width: 18rem;">
+            <img src="https://e0.pxfuel.com/wallpapers/142/10/desktop-wallpaper-pizza-high-quality-for-widescreen-sub-in-2020-delicious-pizza-good-pizza-food-cheese-pizza.jpg" class="card-img-top rounded-start" style="height: 190px;"  alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-light">Delicious Pizza</h5>
+              <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <span class="text-light me-5">$17</span><a href="#" class="btn btn-warning " style="margin-left: 135px; border-radius: 50%; width: 43px;"><i class="fa-solid fa-cart-shopping text-light" ></i></a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+      <br>
+      <!-- row-2 -->
+      <div class="row mt-5" style="margin-left: 100px;">
+        <div class="col-4">
+          <div class="card bg-dark " style="width: 18rem;">
+            <img src="https://www.tastingtable.com/img/gallery/14-pasta-dishes-from-around-the-world/intro-1673017481.jpg"  style="height: 190px;" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-light">Delicious Pasta</h5>
+              <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <span class="text-light me-5">$2C</span><a href="#" class="btn btn-warning " style="margin-left: 125px; border-radius: 50%; width: 43px;"><i class="fa-solid fa-cart-shopping text-light" ></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card bg-dark " style="width: 18rem;">
+            <img src="https://www.holidayscalendar.com/wp-content/uploads/2017/05/National-French-Fry-Day-iStock-1055015240.jpg"  style="height: 190px;" class="card-img-top rounded-start"  alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-light">French Fries</h5>
+              <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <span class="text-light me-5">$15</span><a href="#" class="btn btn-warning " style="margin-left: 135px; border-radius: 50%; width: 43px;"><i class="fa-solid fa-cart-shopping text-light" ></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card bg-dark " style="width: 18rem;">
+            <img src="https://c4.wallpaperflare.com/wallpaper/1005/1000/931/delicious-pizza-pepperoni-pizza-wallpaper-preview.jpg" style="height: 190px;" class="card-img-top rounded-start"  alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-light">Delicious Pizza</h5>
+              <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <span class="text-light me-5">$17</span><a href="#" class="btn btn-warning " style="margin-left: 135px; border-radius: 50%; width: 43px;"><i class="fa-solid fa-cart-shopping text-light" ></i></a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+<br>
+      <a href="#"><button type="button" style="margin-left: 600px;" class="btn rounded-pill btn-warning mt-4 mb-5 text-light">View More</button></a>
+
+    </div>
+  </section>
+
+
+
+  <!-- end menu -->
+
+  <!-- banner -->
+  <div class="container-fluid bg-dark text-light">
+    <div class="banner ms-5 p-5" style="position: relative;">
+      <img src="https://themewagon.github.io/feane/images/about-img.png" width="35%" style="margin-left: 100px;" alt="">
+    </div>
+    <div class="para" style="position: absolute; margin-top: -450px; margin-left: 790px; width: 370px; font-weight: 500;">
+      <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;"><b>We are <i>Feane</i></b></h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nihil, deserunt nulla quisquam id sapiente?
+        Dignissimos quo aliquam libero iste ipsam commodi, odio voluptate quia dolorem, omnis quibusdam velit sapiente.
+      </p>
+      <a href="#"><button type="button" class="btn rounded-pill btn-warning w-50 mb-5 text-light">Read More</button></a>
+    </div>
+  </div>
+  
+
+
+
+
+  <!-- end banner -->
+
+  <!-- form -->
+  <h2 class="ms-5 mt-5" style="font-family: Georgia, 'Times New Roman', Times, serif;" ><i style="margin-left: 170px;"><b>Book a Table</b></i></h2>
+      <div class="row" style=" margin-left: 160px">
+        <div class="col-5 ms-5 mt-3">
+          <form>
+            <div class="form-floating mb-3 ">
+              <input type="text" class="form-control" id="floatingInputDisabled" placeholder="name@example.com" >
+              <label for="floatingInputDisabled">Name</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" id="floatingInputDisabled" placeholder="name@example.com" >
+              <label for="floatingInputDisabled">Phone number</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInputDisabled" placeholder="name@example.com" >
+              <label for="floatingInputDisabled">Email address</label>
+            </div>
+            
+            
+            <div class="form-floating">
+              <select class="form-select" id="floatingSelectDisabled" aria-label="Floating label disabled select example" >
+                <option selected>How many persons</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+              
+            </div>
+            <div class="form-floating mb-3 mt-3">
+              <input type="date" class="form-control" id="floatingInputDisabled" placeholder="name@example.com" >
+              
+            </div>
+<br>
+            <button type="button" class="btn rounded-pill btn-warning w-25 mb-5 text-light">Read More</button>
+      
+        </div>
+
+        <div class="col-5 ms-5 mt-5" >
+
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15927587.863233585!2d59.15669125!3d12.935255000000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae144de25d9287%3A0xde096d1ee6ef01e0!2sBurger%20King!5e0!3m2!1sen!2sin!4v1705374303329!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+
+      </div>
+<br>
+<br>
+<br>
+  <!-- end form -->
+
+  <!-- profiles -->
+
+  <h2 class="head5 text-center" style="font-family: Georgia, 'Times New Roman', Times, serif;"><i><b>What Says Our Customers</b></i></h2>
+<br>
+  <div id="carouselExampleIndicators3" class="carousel slide d-flex">
+  
+    <div class="carousel-inner"  style="margin-left: 120px;">
+      <div class="row active">
+        <div class="col-5">
+          <div class="carousel-item active bg-dark text-light ms-5 mt-5 mb-5" style="width: 500px;">
+            <p class="para3 mt-3 ms-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt mollitia minima
+              earum
+              a ratione, laboriosam est delectus ipsam, voluptatum ipsa possimus sint consectetur asperiores.</p>
+            <h5 class="para3 ms-3">Shiyas Kareem</h5>
+            <h6 class="para3 ms-3"><i>-Kochi</i></h6>
+  
+          </div>
+          <div class="img5 mt-5">
+            <img src="https://hamariweb.com/profiles/images/profile/Shiyas-Kareem.jpg.jpg" class="img"
+              style=" height: 110px; width: 110px; border-radius: 60px; margin-top: 210px; margin-left: 45px;" alt="...">
+          </div>
+        </div>
+        <div class="col-5 ms-5">
+          <div class="carousel-item active bg-dark text-light ms-5 mt-5 mb-5" style="width: 500px;">
+            <p class="para3 mt-3 ms-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt mollitia minima
+              earum
+              a ratione, laboriosam est delectus ipsam, voluptatum ipsa possimus sint consectetur asperiores.</p>
+            <h5 class="para3 ms-3">Nazriya</h5>
+            <h6 class="para3 ms-3"><i>-Palakkad</i></h6>
+  
+          </div>
+          <div class="img5 mt-5">
+            <img src="https://media.assettype.com/tnm%2Fimport%2Fsites%2Fdefault%2Ffiles%2FNazriya_Telugudebut_190421_1200.jpg?auto=format%2Ccompress&fit=max&w=1200" class="img"
+              style=" height: 110px; width: 110px; margin-top: 210px; margin-left: 45px; border-radius: 60px;" alt="...">
+          </div>
+        </div>
+      </div>
+      
+  <!-- ............................................................................................ -->
+  
+      <div class="carousel-item" style="margin-left: 100px;">
+        <div class="row2" >
+          <div class="col-5">
+            <div class="carousel-item bg-dark text-light ms-5 mt-5 mb-5" style="width: 500px;">
+              <p class="para3 mt-3 ms-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt mollitia minima
+                earum
+                a ratione, laboriosam est delectus ipsam, voluptatum ipsa possimus sint consectetur asperiores.</p>
+              <h5 class="para3 ms-3">Nazriya</h5>
+              <h6 class="para3 ms-3"><i>-Palakkad</i></h6>
+    
+            </div>
+            <div class="img5 mt-5">
+              <img src="https://img.studioflicks.com/wp-content/uploads/2023/08/01135448/Wow-Actress-Nazriya-is-back-in-Kollywood-Check-out-the-project.jpg" class="img"
+                style=" height: 110px; width: 110px; margin-top: 210px; margin-left: 50px; border-radius: 60px;" alt="...">
+            </div>
+          </div>
+          <div class="col-5 ms-5">
+            <div class="carousel-item bg-dark text-light ms-5 mt-5 mb-5" style="width: 500px;">
+              <p class="para3 mt-3 ms-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt mollitia minima
+                earum
+                a ratione, laboriosam est delectus ipsam, voluptatum ipsa possimus sint consectetur asperiores.</p>
+              <h5 class="para3 ms-3">Shiyas Kareem</h5>
+              <h6 class="para3 ms-3"><i>-Kochi</i></h6>
+    
+            </div>
+            <div class="img5 mt-5">
+              <img src="https://media.assettype.com/tnm%2Fimport%2Fsites%2Fdefault%2Ffiles%2FNazriya_Telugudebut_190421_1200.jpg?auto=format%2Ccompress&fit=max&w=1200" class="img"
+                style=" height: 110px; width: 110px; margin-top: 210px; margin-left: 50px; border-radius: 60px;" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+    <div class="carousel-indicators ">
+
+      <!-- <div data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active" aria-current="true"
+      aria-label="Slide 1"><i id="anleft" class="fa-solid active fa-angle-left"><i class="fa-solid fa-angle-left"></i> -->
+
+
+      <!-- <div class="btn active btn-warning rounded-5">
+      <i class="fa-solid active fa-angle-left"></i>
+    </div> -->
+       <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active"
+        style="background-color: rgb(255, 205, 0); border-radius: 50%; height: 30px;" aria-current="true"
+        aria-label="Slide 1"></button>
+        <div class="iiic" ><i id="anleft" class="fa-solid active fa-angle-left" style="margin-left: -23px; margin-top: 17px;"></i></div>
+        
+      <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" class="b2"
+        style="background-color: rgb(255, 205, 0); border-radius: 50%; height: 30px;" aria-label="Slide 2"></button>
+        <div class="iiic" ><i id="anleft" class="fa-solid active fa-angle-right" style="margin-left: -23px; margin-top: 17px;"></i></div>
+    
+    </div>
+  
+  </div>
+  <br>
+  <br>
+ 
+  <!-- end profiles -->
+
+  <!-- footer -->
+
+  <!-- Footer -->
+<footer class="text-center text-lg-start bg-dark text-muted">
+  
+<br>
+  
+  <section class="text-light p-3">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact Us</h6>
+          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@example.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          
+        </div>
+        <!-- Grid column -->
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase ms-5 fw-bold mb-4">
+            Feane
+          </h6>
+          <p>
+            Here you can use rows and columns to organize your footer content. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit.We are popular in town by quality
+          </p>
+          <br>
+          <div class="ms-3">
+            <a
+              data-mdb-ripple-init
+              class="btn  rounded-5 btn-floating bg-warning m-1"
+              
+              href="#!"
+              role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+     
+            <!-- Google -->
+            <a
+              data-mdb-ripple-init
+              class="btn  rounded-5 btn-floating bg-warning m-1"
+
+              href="#!"
+              role="button"
+              ><i class="fab fa-google"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a
+              data-mdb-ripple-init
+              class="btn  rounded-5 btn-floating bg-warning m-1"
+              
+              href="#!"
+              role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a
+              data-mdb-ripple-init
+              class="btn  rounded-5 btn-floating bg-warning m-1"
+              
+              href="#!"
+              role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            
+          </div>
+        </div>
+        <!-- Grid column -->
+
+        
+
+        <!-- contact us -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold ms-5 mb-4">
+            Opening Hours
+          </h6>
+          <p class="text-center">
+            EVERYDAY. <br>11:30am-10:00pm
+          </p>
+           </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center text-light p-4" style="margin-left: -30px; background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Copyright:
+    <a class="text-reset text-light ms-2 fw-bold" href="https://mdbootstrap.com/">feane.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+  <!-- end footer -->
+
+</body>
+</html>
